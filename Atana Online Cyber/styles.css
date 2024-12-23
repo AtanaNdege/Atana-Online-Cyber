@@ -1,0 +1,127 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0d47a1;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #1565c0;
+}
+
+header .logo img {
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: #0d47a1;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #199ed2;
+  border-radius: 8px;
+}
+
+h2 {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+ul li i {
+  margin-right: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label, form input, form textarea, form button {
+  margin: 10px 0;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #1565c0;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0d47a1;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #0d47a1;
+}
+
+.btn-homepage {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-homepage:hover {
+  background-color: #0056b3;
+}
